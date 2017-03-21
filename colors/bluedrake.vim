@@ -206,7 +206,8 @@ endfunction
 
 " *Comment
 if has("gui_running")
-    call <SID>X("Comment", "base00", "", "italic")
+    "call <SID>X("Comment", "base00", "", "italic")
+    call <SID>X("Comment", "base00", "", "")
 else
     call <SID>X("Comment", "base00", "", "")
 endif
@@ -215,6 +216,7 @@ endif
 call <SID>X("Constant", "cyan", "", "none")
 if has("gui_running")
     call <SID>X("String", "cyan", "", "italic")
+    call <SID>X("String", "cyan", "", "")
 else
     call <SID>X("String", "cyan", "", "")
 endif
