@@ -215,7 +215,7 @@ endif
 " *Constant (String, Character, Number, Boolean, Float)
 call <SID>X("Constant", "cyan", "", "none")
 if has("gui_running")
-    call <SID>X("String", "cyan", "", "italic")
+    "call <SID>X("String", "cyan", "", "italic")
     call <SID>X("String", "cyan", "", "")
 else
     call <SID>X("String", "cyan", "", "")
